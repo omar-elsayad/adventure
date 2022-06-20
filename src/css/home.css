@@ -1,0 +1,93 @@
+/* =======================
+    start global variables
+ =========================*/
+
+:root {
+    --main-color: black;
+    --sub-color: white;
+    --main-font: 'Roboto', sans-serif;
+    --sec-font: 'Open Sans', sans-serif;
+} 
+
+/* =====================
+    end global variables
+ =======================*/
+
+
+/* ======================
+    start landing section
+ ========================*/
+
+.home .landing {
+    position: relative;
+    background-color: white; 
+}
+
+.home .landing .landing-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    padding-bottom: 100px;
+}
+
+.home .landing .landing-text h1 {
+    color: var(--sub-color);
+    font-family: var(--main-font);
+    font-size: 96px;
+    font-weight: bold;
+}
+
+.home .landing .landing-text p {
+    color: var(--sub-color);
+    font-family: var(--sec-font);
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 80%;
+}
+
+@media (max-width:1450px) {
+    .home .landing .landing-text h1 {
+        font-size: 70px;
+    }
+
+    .home .landing .landing-text p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:1050px) {
+    .home .landing .landing-text h1 {
+        font-size: 46px;
+    }
+
+    .home .landing .landing-text p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:700px) {
+    .home .landing .landing-text {
+        width: 60%;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width:500px) {
+    .home .landing .landing-text h1 {
+        font-size: 30px;
+    }
+
+    .home .landing .landing-text p {
+        font-size: 12px;
+    }
+
+    .home .landing .landing-text {
+        width: 80%;
+    }
+}
+
+/* ====================
+    end landing section
+ ======================*/
