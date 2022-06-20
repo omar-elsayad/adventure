@@ -7,15 +7,17 @@ import Home from './components/Home';
 
 function App() {
   return (
+    <div className="App">
     <Router>
-      <div className="App">
+
         <Navbar />
           <Switch>
             <Route exact path='/adventure' component={Home}/>
           </Switch>
         <Footer />
-      </div>
+
     </Router>
+    </div>
   );
 } 
 
