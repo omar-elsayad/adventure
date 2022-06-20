@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/adventure/static/css/main.5ea49a90.css",
+    "main.js": "/adventure/static/js/main.5cc7aac4.js",
+    "static/media/landingBackground.png": "/adventure/static/media/landingBackground.08f517a7d4fdeb3310e9.png",
+    "index.html": "/adventure/index.html",
+    "main.5ea49a90.css.map": "/adventure/static/css/main.5ea49a90.css.map",
+    "main.5cc7aac4.js.map": "/adventure/static/js/main.5cc7aac4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ea49a90.css",
+    "static/js/main.5cc7aac4.js"
+  ]
+}
